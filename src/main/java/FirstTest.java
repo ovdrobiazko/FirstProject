@@ -22,6 +22,4 @@ public class FirstTest extends BaseClass {
         WebElement siteElement = driver.findElement(By.id("td-cover-block-0"));
         Assert.assertTrue(siteElement.isDisplayed(), "New web site about Selenium is opened");
     }
-
-
 }
